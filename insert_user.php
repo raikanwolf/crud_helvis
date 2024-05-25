@@ -9,7 +9,7 @@ $username = $_POST['username'];
 $password = $_POST['password'];
 $email = $_POST['email'];
 
-$sql = "INSERT INTO users VALUES('$id','$name','$lastname','$username','$password','$email')";
+$sql = "INSERT INTO usuarios VALUES('$id','$name','$lastname','$username','$password','$email')";
 $query = mysqli_query($con, $sql);
 
 if($query){
